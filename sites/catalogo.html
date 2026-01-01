@@ -33,7 +33,99 @@
         </nav>
     </header>
 
-    <main>
+    <main id="catalog">
+        <h1 class="main-title">Catálogo de Biopic Archive</h1>
+
+        <div class="catalog-container">
+            <div id="catalog-nav">
+                <ul id="catalog-nav-list">
+                    <li><a href="#films-container">PELÍCULAS</a></li>
+                    <li><a href="#tvshows-container">SERIES</a></li>
+                    <li><a href="#docs-container">DOCUMENTALES</a></li>
+                </ul>
+                <div id="catalog-search">
+                    <input type="text" placeholder="Buscar...">
+                    <img src="../img/icon-search.svg" alt="Buscar">
+                </div>
+            </div>
+
+            <div class="catalog-cards-container" id="films-container">
+                <h2>Películas</h2>
+                <div class="catalog-card-grid">
+                    <div class="catalog-card">
+                        <div class="catalog-card-info">
+                            <h3>Lee</h3>
+                            <p>Ellen Kuras (2023)</p>
+                            <button type="button" class="white-button">
+                                Ficha Completa
+                            </button>
+                        </div>
+                        <figure class="catalog-card-fig">
+                            <img src="../img/Lee_Miller.jpg" alt="Lee Miller">
+                            <figcaption>Lee Miller en 1943 (<abbr title="United States">U.S.</abbr> Army Official
+                                Photograph)
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="catalog-card">
+                        <div class="catalog-card-info">
+                            <h3>Elvis</h3>
+                            <p>Baz Luhrmann (2022)</p>
+                            <button type="button" class="white-button">
+                                Ficha Completa
+                            </button>
+                        </div>
+                        <figure class="catalog-card-fig">
+                            <img src="../img/Elvis_Presley.jpg" alt="Elvis Presley">
+                            <figcaption>Elvis Presley en 1969</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="catalog-card">
+                        <div class="catalog-card-info">
+                            <h3>Mi semana con Marilyn</h3>
+                            <p>Simon Curtis (2011)</p>
+                            <button type="button" class="white-button">
+                                Ficha Completa
+                            </button>
+                        </div>
+                        <figure class="catalog-card-fig">
+                            <img src="../img/Marilyn_Monroe.jpg" alt="Marilyn Monroe">
+                            <figcaption>Marilyn Monroe en 1954</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="catalog-card">
+                        <div class="catalog-card-info">
+                            <h3>Frida</h3>
+                            <p>Julie Taymor (2002)</p>
+                            <button type="button" class="white-button">
+                                Ficha Completa
+                            </button>
+                        </div>
+                        <figure class="catalog-card-fig">
+                            <img src="../img/Frida_Kahlo.jpg" alt="Frida Kahlo">
+                            <figcaption>Frida Kahlo en 1937</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog-container" id="tvshows-container">
+                <h2>Series</h2>
+                <div class="catalog-card">
+
+                </div>
+            </div>
+
+            <div class="catalog-container" id="docs-container">
+                <h2>Documentales</h2>
+                <div class="catalog-card">
+
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -47,7 +139,7 @@
             <div>
                 <input type="checkbox" id="consent-checkbox">
                 <label for="consent-checkbox">Al suscribirme, acepto recibir el boletín de Biopic Archive y declaro que
-                    he leído y acepto su política de privacidad</label>
+                    he leído y acepto su <a href="" class="footer-link">política de privacidad</a></label>
             </div>
 
             <button type="submit" class="white-button">
