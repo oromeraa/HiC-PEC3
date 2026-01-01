@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omar Romera Aller">
+    <meta name="description" content="Archivo definitivo para descubrir biopics">
+    <title>Biopic Archive</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+</head>
+
+<body>
+    <header class="dark-block">
+        <a class="logo" href="index.html">
+            <img src="../img/logo-biopic-archive.svg" alt="Biopic Archive Logo">
+        </a>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-option" id="first-option">
+                    <a href="catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-option">
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="title-section">
+            <h1 class="main-title">Biopic Archive</h1>
+            <p class="title-section-subtitle">El archivo definitivo para descubrir <i>biopics</i>: historias auténticas
+                que merecen ser contadas.</p>
+        </section>
+
+        <section class="dark-block" id="featured-story-section">
+            <div id="featured-text-container">
+                <h2>Historia destacada</h2>
+                <p><i>Oppenheimer</i> (2023)</p>
+                <p>La vida del físico detrás del proyecto Manhattan</p>
+
+                <button type="button" class="white-button">
+                    Ver ficha completa
+                </button>
+            </div>
+
+            <div id="featured-video-container">
+                <iframe id="embed-video-index" src="https://www.youtube.com/embed/bK6ldnjE3Y0?si=dVtKKDkeknDnhsWc"
+                    title="Oppenheimer - Official Trailer"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="category-section">
+            <h2>Explorar por categorías</h2>
+            <div id="category-grid">
+                <a href="catalogo.html#films-cat" class="category-card">
+                    <img src="../img/icon-films.svg" alt="Películas">
+                    <p>Películas</p>
+                </a>
+                <a href="catalogo.html#tvshows-cat" class="category-card">
+                    <img src="../img/icon-series.svg" alt="Series">
+                    <p>Series</p>
+                </a>
+                <a href="catalogo.html#docs-cat" class="category-card">
+                    <img src="../img/icon-docs.svg" alt="Documentales">
+                    <p>Documentales</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="dark-block">
+        <form id="newsletter-form">
+            <p>Boletín electrónico: todas las novedades en tu bandeja de entrada</p>
+
+            <input type="email" placeholder="Tu correo">
+
+            <div>
+                <input type="checkbox" id="consent-checkbox">
+                <label for="consent-checkbox">Al suscribirme, acepto recibir el boletín de Biopic Archive y declaro que
+                    he leído y acepto su <a href="" class="footer-link">política de privacidad</a></label>
+            </div>
+
+            <button type="submit" class="white-button">
+                Suscríbeme
+            </button>
+        </form>
+
+        <div id="first-links-container">
+            <div id="about-us">
+                <ul class="footer-link-group">
+                    <li><a href="" class="footer-link">Sobre nosotros</a></li>
+                    <li><a href="" class="footer-link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div id="legal-info">
+                <ul class="footer-link-group">
+                    <li><a href="" class="footer-link">Política de privacidad</a></li>
+                    <li><a href="" class="footer-link">Términos y condiciones</a></li>
+                    <li><a href="" class="footer-link">Aviso legal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="second-links-container">
+            <div id="social-media">
+                <ul class="footer-link-group">
+                    <li><a href="" class="footer-link">Instagram</a></li>
+                    <li><a href="" class="footer-link">TikTok</a></li>
+                    <li><a href="" class="footer-link">X</a></li>
+                </ul>
+            </div>
+
+            <div id="credits">
+                <p>
+                    <abbr title="Universitat Oberta de Catalunya">UOC</abbr>, 2025-2026. <abbr
+                        title="HyperText Markup Language">HTML</abbr> y <abbr title="Cascading Style Sheets">CSS</abbr>
+                </p>
+                <p>Omar Romera Aller</p>
+            </div>
+        </div>
+    </footer>
+</body>
