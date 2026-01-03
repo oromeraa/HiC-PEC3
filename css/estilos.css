@@ -130,16 +130,20 @@ abbr {
 
 /******************************************/
 /* Botones */
-button {
+button,
+.button {
     padding: 0.5rem 1rem;
     width: fit-content;
     text-transform: uppercase;
     border: none;
-    cursor: pointer;
+    text-decoration: none;
+    color: var(--negro);
 }
 
-button:hover {
+button,
+.button:hover {
     background-color: var(--rojo);
+    cursor: pointer;
 }
 
 .white-button {
@@ -147,8 +151,18 @@ button:hover {
     color: var(--negro);
 }
 
+.white-button:hover {
+    background-color: var(--rojo);
+    color: var(--negro);
+}
+
 .black-button {
     background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.black-button:hover {
+    background-color: var(--rojo);
     color: var(--blanco);
 }
 
@@ -161,6 +175,8 @@ button:hover {
 
 .transparent-button:hover {
     border: 2px solid var(--rojo);
+    background-color: var(--rojo);
+    color: var(--negro);
 }
 
 /******************************************/
@@ -482,7 +498,6 @@ footer a:hover {
 #catalog-search {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
     border: 2px solid var(--negro);
     background-color: var(--blanco);
     gap: 1.5rem;
@@ -613,7 +628,7 @@ footer a:hover {
 
 .blog-title a:hover {
     color: var(--rojo);
-    text-decoration-style: none;
+    text-decoration: none;
 }
 
 .blog-container {
