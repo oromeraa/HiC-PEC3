@@ -628,7 +628,6 @@ footer a:hover {
 
 .blog-title a:hover {
     color: var(--rojo);
-    text-decoration: none;
 }
 
 .blog-container {
